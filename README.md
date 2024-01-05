@@ -1,3 +1,4 @@
+# Sensor Térmico LM35
 Projeto IoT desenvolvido no Tinkercad utilizando Arduino para monitorar temperatura. O circuito inclui um sensor LM35, botão, LEDs e buzzer.
 
 ## Passo a Passo
