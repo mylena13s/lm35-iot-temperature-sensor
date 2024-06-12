@@ -1,20 +1,18 @@
-# LM35 Thermal Sensor 🌡️
+# Sensor Térmico LM35 
 
-IoT project developed on Tinkercad using Arduino to monitor temperature. The circuit includes an LM35 sensor (idealized) or TMP36 (used in simulation), button, LEDs, and buzzer.
+Este projeto de IoT foi desenvolvido no Tinkercad usando Arduino para monitorar a temperatura. O circuito inclui um sensor LM35 (idealizado) ou TMP36 (usado na simulação), botão, LEDs e buzzer.
 
-## Step by Step 🛠️
+1. **Leitura de Temperatura:**
+    O programa lê a temperatura usando o sensor e a exibe no monitor serial após pressionar o botão.
 
-1. **Temperature Reading:**
-    The program reads the temperature using the sensor and displays it on the serial monitor after pressing the button.
+2. **Contagem Binária do Botão:**
+    Os LEDs indicam o número de pressões do botão, representando um valor binário de 0-F.
 
-2. **Button Binary Counting:**
-    LEDs indicate the number of button presses, representing a binary value from 0-F.
+3. **Piscar dos LEDs com 15 Pressões:**
+    Quando a contagem atinge 15, os LEDs piscam por 3 segundos.
 
-3. **LEDs Blinking at 15 Presses:**
-    When the count reaches 15, the LEDs blink for 3 seconds.
+4. **Reinício Após 3 Segundos:**
+    Após 3 segundos, o contador é reiniciado e os LEDs retornam ao valor inicial (zero).
 
-4. **Reset After 3 Seconds:**
-    After 3 seconds, the counter is reset, and the LEDs return to the initial value (zero).
-
-5. **Buzzer for Temperature > 25°C:**
-    The buzzer emits sound every 5 seconds if the temperature exceeds 25°C.
+5. **Buzzer para Temperatura > 25°C:**
+    O buzzer emite som a cada 5 segundos se a temperatura exceder 25°C.
